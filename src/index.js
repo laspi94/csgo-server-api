@@ -25,7 +25,7 @@ app.use(haltOnTimedout);
 /*******************
  *    CONSTANTS    *
  *******************/
-const HTTP_PORT = process.env.HTTP_PORT || 9000;
+const HTTP_PORT = process.env.HTTP_PORT || 27300;
 
 /*******************
  *    VARIABLES    *
