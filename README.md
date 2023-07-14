@@ -1,9 +1,9 @@
 # NodeJS CS:GO Server API
 
-Very simple HTTP API for CS:GO servers with token authentication to avoid distributing RCON passwords between applications and having to update server lists.
+API HTTP muy simple para servidores CS:GO o CS:2 con autenticación de token para evitar distribuir contraseñas RCON entre aplicaciones y tener que actualizar las listas de servidores.
 
 ## Requirements
-  - Node 10+ or Docker
+  - Node 18+ or Docker
   
 ## Installation via Node
 ###### Please do not open issues if you have problems when installing directly with Node.
@@ -26,7 +26,7 @@ cp config/servers.json.example config/servers.json
 Update `servers.json` with your information
 
 
-Run (**make sure you have Node version 10+**)
+Run (**make sure you have Node version 18+**)
 ```bash
 npm run start
 ```
